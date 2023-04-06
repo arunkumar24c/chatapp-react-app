@@ -1,0 +1,356 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* <!------------- register css -----------------> */
+
+.formContainer {
+  background: url(https://media.istockphoto.com/id/690445882/vector/social-media-blue-seamless-pattern.jpg?s=170667a&w=is&k=20&c=uHOW809tvEzT3UPweo573vXRs2qQrfAgYAlBwmh9gnQ=)
+    no-repeat;
+  background-size: cover !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper {
+  background-color: #5598758f;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 1px,
+    rgb(255, 255, 255) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.54) 0px 1px 0px inset;
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.logo {
+  color: rgb(176, 135, 135);
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.tittle {
+  color: #022124;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formWrapper input {
+  padding: 15px;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  border-bottom: 1px solid #0ae0a3;
+  margin-bottom: 20px;
+  outline: none;
+}
+.formWrapper input::placeholder {
+  color: rgb(175, 175, 175);
+}
+.formWrapper button {
+  background-color: #023b59;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.formWrapper button:hover {
+  background-color: #0a0a86;
+}
+.formWrapper label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #025159;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.formWrapper img {
+  width: 32px;
+  margin: 5px 10px;
+}
+.formWrapper p {
+  color: #130eb6;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* ------------home css-------------- */
+.home {
+  background: url(https://media.istockphoto.com/id/690445882/vector/social-media-blue-seamless-pattern.jpg?s=170667a&w=is&k=20&c=uHOW809tvEzT3UPweo573vXRs2qQrfAgYAlBwmh9gnQ=)
+    no-repeat;
+  background-size: cover !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 65%;
+  height: 80%;
+  display: flex;
+  overflow: hidden;
+}
+.sidebar {
+  flex: 1;
+  background-color: #7abfa7;
+  position: relative;
+}
+
+/* <---------nav bar-----------> */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #12ca6e;
+  height: 50px;
+  padding: 15px;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+.logout-btn {
+  padding: 8px;
+  font-size: 18px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.user img {
+  background-color: #0a0a86;
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user button {
+  background-color: #1d61df;
+  color: #ddddf7;
+  font-size: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.user button:hover {
+  background-color: #36119a;
+}
+.img1 {
+  background-color: #045432;
+  border-radius: 10px;
+}
+.para {
+  color: #741313;
+  font-weight: 400;
+}
+.link{
+  color:red;
+}
+/* <-------------Search--------------> */
+
+.search {
+  border-bottom: 1px solid gray;
+}
+.searchForm {
+  padding: 10px;
+}
+.searchForm input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.searchForm:placeholder {
+  color: lightgray;
+  font-size: 15px;
+}
+
+/* <------------user------------> */
+.userChat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+.userChat:hover {
+  background-color: #0a8447;
+}
+
+.userChat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userChatInfo span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.userChatInfo p {
+  font-size: 14px;
+  color: lightgray;
+}
+
+/* <-------------chat----------------> */
+.chat {
+  flex: 2;
+}
+.chatInfo {
+  height: 50px;
+  background-color: #0cc361;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: lightgray;
+}
+.chatIcons {
+  display: flex;
+  width: 70px;
+  margin: 0px 25px 0px;
+}
+
+.chatIcons img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  margin: 5px;
+}
+.chat img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 50%;
+}
+/* <-------------Messages----------------> */
+
+.messages {
+  background-color: #2c9072;
+  padding: 10px;
+  height: calc(100% - 160px);
+  overflow-y: scroll;
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
+}
+.message {
+  display: flex;
+  gap: 1px;
+  margin-bottom: 20px;
+}
+
+.messageSender {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+.messageContent {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.messageContent p {
+  padding: 10px 20px;
+  border-radius: 8px 8px 8px 0px;
+  max-width: max-content;
+  margin-bottom: 10px;
+}
+
+.owner {
+  flex-direction: row-reverse;
+}
+
+.owner > .messageContent {
+  flex-direction: row-reverse;
+}
+.owner > .messageContent p {
+  border-radius: 8px 8px 0px 8px;
+}
+.owner > img {
+  right: 0;
+}
+
+.send-time {
+  font-size: 12px;
+}
+.messageContent {
+  align-items: flex-start;
+}
+.message p {
+  background-color: #7ab8bf;
+  color: white;
+  max-width: 30vh;
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.messageContent {
+  width: 100%;
+  height: 100%;
+}
+
+.input {
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #2f2d52;
+  font-size: 18px;
+}
+.input::placeholder {
+  color: lightgray;
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.input img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.input button {
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #20a459;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
